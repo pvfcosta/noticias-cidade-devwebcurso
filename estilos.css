@@ -1,0 +1,25 @@
+header{
+    background: url(./imagens/fundo.png) repeat-x;
+    height: 258px;
+    margin: 0 auto;
+}
+header nav li{
+    float: left;
+    border: 1px solid red;
+    background-color: red;
+}
+
+header nav ul{
+    list-style: none;
+    width: 900px;
+    margin: 50px auto 20px auto !important;  
+    
+}
+
+header nav a{
+    display: block;
+    padding: 10px 2em;
+    text-decoration: none;
+    color: white;
+}
+
