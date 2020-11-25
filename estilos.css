@@ -5,15 +5,12 @@
 
 /*Configurações Gerais do Body*/
 body{
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #ffffff url(./imagens/fundo.png) repeat-x;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+body #container{
     width: 750px;
     margin: 0 auto;
-}
-
-/*Configurando o main*/
-main{
-    border: 1px solid red;
 }
 
 /* Configurando o Header */
@@ -82,3 +79,41 @@ body.fotos header nav a#fotos{
 }
 
 /*Configurando o conteudo*/
+
+/*Configurando o main*/
+main{
+    margin-top: 35px;
+    background:#f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 195px;
+    background: blue;
+}
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: green;
+}
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: yellow;
+}
+
+/* Configurando o footer */
+
+div#container-rodape{
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;    
+    margin: 0 auto;
+    color: white;
+}
