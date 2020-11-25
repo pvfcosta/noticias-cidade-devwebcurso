@@ -1,25 +1,84 @@
-header{
-    background: url(./imagens/fundo.png) repeat-x;
-    height: 258px;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Configurações Gerais do Body*/
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #ffffff url(./imagens/fundo.png) repeat-x;
+    width: 750px;
     margin: 0 auto;
 }
-header nav li{
-    float: left;
+
+/*Configurando o main*/
+main{
     border: 1px solid red;
-    background-color: red;
 }
 
-header nav ul{
+/* Configurando o Header */
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(./imagens/logo.png) no-repeat left top;
+    text-indent: -3000px;
+    margin-left: -25px;
+}
+
+header{
+    height: 150px;
+    padding: 25px;
+    background: url(./imagens/detalhe-topo.png) no-repeat right top;
+}
+
+/* Configurando a barra de navegação */
+ul{
     list-style: none;
-    width: 900px;
-    margin: 50px auto 20px auto !important;  
-    
+    margin: 0px;
+    padding: 0px;    
 }
 
-header nav a{
+header ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+    margin-left: -25px;
+}
+
+header ul li{
+    float: left;
+}
+
+header ul a{
+    font-size: 0.9em;
     display: block;
-    padding: 10px 2em;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
+    background: url(./imagens/divisor.png) no-repeat left center;
+
 }
 
+header ul .primeiro a{
+    background: none;
+}
+
+header ul a:hover{
+    color: #69001d
+}
+
+body.home header nav a#home,
+body.brasil header nav a#brasil,
+body.internacional header nav a#internacional,
+body.economia header nav a#economia,
+body.saude header nav a#saude,
+body.ciencia header nav a#ciencia,
+body.fotos header nav a#fotos{
+    color: white;
+    background: #de003e;
+    cursor: text;
+}
+
+/*Configurando o conteudo*/
