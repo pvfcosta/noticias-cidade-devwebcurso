@@ -183,7 +183,8 @@ h3{
 
 #duas-colunas #primario{
     width: 555px;
-
+    float: left;
+    margin: 0px 0px 20px 195px;
 }
 
 #uma-coluna #primario{
@@ -198,6 +199,7 @@ h3{
 }
 
 /* Formatando o conteúdo */
+
 /* Formatando Lista Notícias */
 #lista-noticias li{
     padding: 2px;
