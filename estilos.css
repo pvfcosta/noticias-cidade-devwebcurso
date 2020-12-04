@@ -86,23 +86,145 @@ main{
     background:#f5f5f5;
 }
 
-#primario{
-    width: 270px;
-    float: left;
-    margin: 0px 0px 20px 195px;
-    background: blue;
-}
-#secundario{
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 15px;
-    background: green;
-}
+/* Configurando o Menu Lateral */
+
 #lateral{
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: yellow;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+    background: #f9f9f9 url(./imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/* Configurando o Menu Lateral */
+
+/* Formatando Formulários */
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: white;
+}
+input.submit{
+    width: 80px;
+    color: white;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+/* Formatando as caixas */
+.caixa{
+    margin:10px 0px;
+    padding: 5px;
+    background: #f3f3f3 url(./imagens/fundo-caixa.png);
+}
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Formatando as caixas */
+
+/* Formatando Imagens */
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+/* Formatando cabeçalhos */
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e ;
+}
+
+/* Formatando o conteúdo */
+
+#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 195px;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0px 0px 20px 0px;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* Formatando o conteúdo */
+/* Formatando Lista Notícias */
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+#lista-noticias li a p{
+    font-size: 0.7em;
+}
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
 }
 
 /* Configurando o footer */
